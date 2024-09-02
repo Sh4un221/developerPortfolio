@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import photo from '../../assets/img/foto.jpg'
 import './AboutMe.css';
 
 const AccordionItem = ({ title, children }) => {
@@ -20,7 +21,7 @@ const AboutMe = () => {
     <div className="about-container">
       <h2>Sobre mí</h2>
       <div className="about-content">
-        <img src="/path-to-your-image.jpg" alt="Tu nombre" className="profile-image" />
+        <img src={photo} alt="Tu nombre" className="profile-image" />
         <div className="about-text">
           <p>Soy un desarrollador full-stack con énfasis en el backend. A lo largo de mi formación, he adquirido un gran interés por el manejo de bases de datos, así como por la creación y documentación de APIs robustas y escalables. Me apasiona diseñar soluciones eficientes que optimicen el rendimiento del backend y faciliten la integración con el frontend, garantizando una experiencia de usuario fluida y efectiva.</p>
 
@@ -34,7 +35,7 @@ const AboutMe = () => {
                 </div>
                 <div className="card">
                   <div className="img">
-                    <img src="https://newrelic.com/sites/default/files/2021-10/mongo_logo.jpg" alt="logo" />
+                    <img src="https://1000marcas.net/wp-content/uploads/2021/06/MongoDB-Logo.png" alt="logo" />
                   </div>
                 </div>
                 <div className="card">

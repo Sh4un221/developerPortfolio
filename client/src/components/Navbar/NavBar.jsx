@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/img/logo.jpeg'
 import './NavBar.css';
 
 const NavBar = () => {
@@ -12,9 +13,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo">
-          TuLogo
-        </Link>
+      <img src={logo} alt="" />
         <div className="menu-icon" onClick={toggleMenu}>
           <i className={isOpen ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
