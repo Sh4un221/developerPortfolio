@@ -1,45 +1,47 @@
 .home-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    text-align: center;
-    color: white;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  text-align: center;
+  color: var(--text-color);
+  /* Ajusta al color de texto general */
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: var(--button-bg);
+  color: var(--text-color);
+  /* Texto del botón */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+@media (max-width: 768px) {
   h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
   }
-  
+
   p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-  }
-  
-  .cta-button {
-    padding: 10px 20px;
     font-size: 1rem;
-    background-color: #ffffff;
-    color: #764ba2;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
   }
-  
-  .cta-button:hover {
-    background-color: #764ba2;
-    color: #ffffff;
-  }
-  
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 2rem;
-    }
-  
-    p {
-      font-size: 1rem;
-    }
-  }
+}
