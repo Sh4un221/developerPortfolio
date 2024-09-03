@@ -15,11 +15,11 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename='developerPortfolio'>
       <div>
         <Navbar />
         <Routes>
-          <Route path="/developerPortfolio/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/developerPortfolio/about" element={<About />} />
           <Route path="/developerPortfolio/projects" element={<Projects />} />
           <Route path="/developerPortfolio/certifications" element={<Certifications />} />
