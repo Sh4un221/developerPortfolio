@@ -19,27 +19,27 @@ const NavBar = () => {
         </div>
         <ul className={isOpen ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
-            <Link to="/" className="nav-link" onClick={toggleMenu}>
+            <Link to="/developerPortfolio" className="nav-link" onClick={toggleMenu}>
               Inicio
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-link" onClick={toggleMenu}>
+            <Link to="/developerPortfolio/about" className="nav-link" onClick={toggleMenu}>
               Sobre mí
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/projects" className="nav-link" onClick={toggleMenu}>
+            <Link to="/developerPortfolio/projects" className="nav-link" onClick={toggleMenu}>
               Proyectos
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/certifications" className="nav-link" onClick={toggleMenu}>
+            <Link to="/developerPortfolio/certifications" className="nav-link" onClick={toggleMenu}>
               Certificaciones
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/services" className="nav-link" onClick={toggleMenu}>
+            <Link to="/developerPortfolio/services" className="nav-link" onClick={toggleMenu}>
               Servicios
             </Link>
           </li>

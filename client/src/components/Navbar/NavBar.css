@@ -116,4 +116,9 @@
       font-size: 1.8rem;
       cursor: pointer;
     }
+    .navbar-container img{
+      object-fit: cover;
+      height: 10vh;
+      width: 50%;
+    }
   }
