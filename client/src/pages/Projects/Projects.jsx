@@ -1,4 +1,6 @@
 import React from 'react';
+import proyecto1 from '../../assets/img/proyecto1.png'
+import proyecto2 from '../../assets/img/proyecto2.png'
 import './Projects.css';
 
 const ProjectCard = ({ title, description, image, link }) => (
@@ -15,16 +17,16 @@ const ProjectCard = ({ title, description, image, link }) => (
 const Projects = () => {
   const projects = [
     {
-      title: "Proyecto 1",
-      description: "Una breve descripción del proyecto 1.",
-      image: "/path-to-project1-image.jpg",
-      link: "https://project1.com"
+      title: "Proyecto JavaScript",
+      description: "En este proyecto con ayuda del API de prueba de spotify se realizo un diseno de un reproductor de musica.",
+      image: proyecto1,
+      link: "https://sh4un221.github.io/proyectoJavaScript/"
     },
     {
-      title: "Proyecto 2",
-      description: "Una breve descripción del proyecto 2.",
-      image: "/path-to-project2-image.jpg",
-      link: "https://project2.com"
+      title: "Proyecto Web",
+      description: "Este proyecto es un diseno a una pagina web ambientada en una venta de comidas usando propiedades de flexbox y grid.",
+      image: proyecto2,
+      link: "https://sh4un221.github.io/proyectoWeb/"
     },
   ];
 

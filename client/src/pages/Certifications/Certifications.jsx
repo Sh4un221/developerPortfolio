@@ -1,5 +1,7 @@
 import React from 'react';
 import './Certifications.css';
+import certification1 from '../../assets/img/certification1.png'
+import certification2 from '../../assets/img/certification2.png'
 
 const CertificationCard = ({ title, issuer, date, image }) => (
   <div className="certification-card">
@@ -15,16 +17,16 @@ const CertificationCard = ({ title, issuer, date, image }) => (
 const Certifications = () => {
   const certifications = [
     {
-      title: "Certificación React Developer",
-      issuer: "FreeCodeCamp",
-      date: "Enero 2023",
-      image: "/path-to-react-cert-image.jpg"
+      title: "Introduccion al control de versiones con git",
+      issuer: "Microsoft Learn",
+      date: "Abril 2024",
+      image: certification1
     },
     {
-      title: "Full Stack Web Development",
-      issuer: "Udacity",
-      date: "Junio 2022",
-      image: "/path-to-fullstack-cert-image.jpg"
+      title: "Introduccion a GitHub y Visual Studio Code",
+      issuer: "Microsoft Learn",
+      date: "Abril 2024",
+      image: certification2
     },
     // Añade más certificaciones según sea necesario
   ];
