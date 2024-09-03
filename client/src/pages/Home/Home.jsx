@@ -3,7 +3,7 @@ import './Home.css';
 
 const Home = () => {
   const handleClick = () => {
-    window.location.href = 'https://github.com/Sh4un221?tab=repositories';
+    window.open ('https://github.com/Sh4un221?tab=repositories','_blank');
   };
   return (
     <div className="home-container">
